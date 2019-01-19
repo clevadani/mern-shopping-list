@@ -10,6 +10,8 @@
     "react-scripts": "1.1.0",
     "react-transition-group": "^2.5.0",
     "reactstrap": "^6.5.0",
+    "redux": "*",
+    "redux-thunk": "*",
     "styled-components": "^3.2.6",
     "symbol-observable": "^1.2.0",
     "uuid": "^3.3.2"

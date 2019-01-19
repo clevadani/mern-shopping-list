@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const path = require("path");
 const config = require("./config/serverConfig");
-mongoose.connect(`mongodb://localhost/${config.DB_NAME}`, {
+mongoose.connect(config.DB_NAME, {
   useNewUrlParser: true
 });
 
